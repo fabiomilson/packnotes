@@ -1,0 +1,79 @@
+.header-newCard{
+	padding: 24px;
+	margin-bottom: 10px;
+}
+
+.wrap-card-options{
+		transition: opacity 0.2s linear;
+		margin-bottom: -20px;
+		cursor: pointer;
+	}
+
+@media screen and (min-width: 320px) {
+
+	.wrap-card-options{
+			display: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.wrap-card-options{
+			opacity: 0;
+			display: block;
+	}
+	.card:hover .wrap-card-options{
+		opacity: 1;
+	}
+}
+
+.card-content p{
+	word-break: break-all;
+}
+
+.card-model{
+	display:none;
+}
+
+textarea{
+    min-height: 10rem;
+    border: 2px solid #EE6E73;
+}
+
+::-webkit-input-placeholder {
+   color: #865658;
+   font: 16px;
+}
+:-moz-placeholder {
+   color: orange;
+   font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+   color: orange;  
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: orange;  
+   font: 12px verdana, arial, sans-serif;
+}
+
+[data-color="default"]{
+	background-color: #546e7a;
+}
+/* ------- Orange --------- */
+[data-color="first"]{
+	background-color: #F35A25;
+}
+/* ------- Purple --------- */
+[data-color="second"]{
+	background-color: #9c27b0;	
+}
+/* ------- Green --------- */
+[data-color="third"]{
+	background-color: #7aab13;	
+}
+/* ------- Blue --------- */
+[data-color="fourth"]{
+	background-color: #2196F3;		
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Packnotes</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-wrapper">
+            <div class="container">
+            <a href="#" class="brand-logo"> Packnotes </a>
+            <a href="#" data-activates="mobile-in" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="" class="right hide-on-med-and-down">
+                    <li>
+                        <a class="waves-effect waves-light btn" href="">Linhas</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light btn" href="">?</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-in">
+                    <li><a href="http://packtudo.info">Blog do autor</a></li>
+                    <li><a href="#">Avalie o app</a></li>
+                </ul>
+            </div>
+      
+            </nav>
+            <div class="header-newCard">
+                <div class="container center-align">
+                    <textarea type="text" class="new-card-text" placeholder="Digite aqui para inserir um novo card"></textarea>
+                    <a class="waves-effect waves-light btn red lighten-2 action-save">Salvar</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="row cards">
+                <div class="col s12 m6 l3 card-col card-model" data-index="null">
+                    <div class="card" data-color="default">          
+                    <nav class="row wrap-card-options center-align">
+                            <a class="col s2 action-delete">Excluir</a>
+                            <a class="col s2 action-edit">Editar</a>
+                            <a data-color="first" class="col s2 deep-orange darken-2 waves-effect waves-light">Laran</a>
+
+                            <a data-color="second" class="col s2 purple waves-effect waves-light">Roxo</a>
+
+                            <a data-color="third" class="col s2 green waves-effect waves-light">Verde</a>
+
+                            <a data-color="fourth" class="col s2 blue waves-effect waves-light">Azul</a>
+                    </nav>
+                        <div class="card-content white-text">
+                          <span class="card-title" contenteditable="false">Card Title</span>
+                          <p contenteditable="false">I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                          <a class="share-link">Compartilhar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/block/changeColorCard.js"></script>
+    <script type="text/javascript" src="js/block/actionCard.js"></script>
+    <script type="text/javascript" src="js/block/loading.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script>
+         $(".button-collapse").sideNav();
+       // As submitted by @Aras
+        $.mobile.loading( "hide" );
+        // (or presumably as submitted by @Pnct)
+        $.mobile.loading().hide();
+    </script>
+    </body>
+</html>

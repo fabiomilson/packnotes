@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "info.notes.packtudo"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "info.notes.packtudo"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "info.notes.packtudo"
+        },
+        "com.plugins.shortcut": {
+            "PACKAGE_NAME": "info.notes.packtudo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "info.notes.packtudo"
+        }
+    },
+    "dependent_plugins": {}
+}

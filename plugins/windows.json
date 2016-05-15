@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.plugins.shortcut": {
+            "PACKAGE_NAME": "PackNotes"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "PackNotes"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "PackNotes"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "PackNotes"
+        }
+    },
+    "dependent_plugins": {}
+}
